@@ -28,6 +28,7 @@ namespace _1_Bonjour
         private void Form1_Load(object sender, EventArgs e)
         {
             button1.Enabled = false; //Au chargement du programme le bouton est désactivé
+        
         }
 
        
@@ -42,6 +43,11 @@ namespace _1_Bonjour
             label2.Text = "Bonjour " + textBox1.Text; //Lorsqu'on clique sur le bouton, un "Bonjour + nom entré dans la Textbox sera affiché
             textBox1.Text = null; //Lorsqu'on clique sur le bouton, le texte dans la Textbox se vide
             button1.Enabled = false; //Lorsqu'on clique sur le bouton, il se désactivera
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

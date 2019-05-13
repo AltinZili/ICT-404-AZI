@@ -32,6 +32,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -53,7 +54,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(260, 288);
+            this.button1.Location = new System.Drawing.Point(94, 217);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(209, 52);
             this.button1.TabIndex = 2;
@@ -70,11 +71,22 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "...";
             // 
+            // button4
+            // 
+            this.button4.Image = global::_1_Bonjour.Properties.Resources.croix_stop;
+            this.button4.Location = new System.Drawing.Point(386, 64);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(666, 425);
+            this.button4.TabIndex = 6;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1173, 530);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
@@ -93,6 +105,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button4;
     }
 }
 
