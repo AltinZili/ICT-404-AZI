@@ -28,7 +28,6 @@ namespace _1_Bonjour
         private void Form1_Load(object sender, EventArgs e)
         {
             button1.Enabled = false; //Au chargement du programme le bouton est désactivé
-        
         }
 
        
