@@ -16,7 +16,7 @@ namespace Deductions
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new lblcoefficient());
+            Application.Run(new Form1());
         }
     }
 }
