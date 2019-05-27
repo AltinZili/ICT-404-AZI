@@ -148,6 +148,7 @@
             this.lblimposable.Size = new System.Drawing.Size(35, 13);
             this.lblimposable.TabIndex = 11;
             this.lblimposable.Text = "label1";
+            this.lblimposable.Visible = false;
             // 
             // Form1
             // 
