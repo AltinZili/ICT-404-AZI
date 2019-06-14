@@ -69,6 +69,5 @@ namespace Pizza
             
             lblComChoisie.Text = lblComChoisie.Text.Substring(0, lblComChoisie.Text.Length-2); 
         }
-
     }
 }

@@ -132,7 +132,7 @@
             // 
             this.btnCommander.Location = new System.Drawing.Point(292, 315);
             this.btnCommander.Name = "btnCommander";
-            this.btnCommander.Size = new System.Drawing.Size(75, 23);
+            this.btnCommander.Size = new System.Drawing.Size(87, 23);
             this.btnCommander.TabIndex = 8;
             this.btnCommander.Text = "Commander";
             this.btnCommander.UseVisualStyleBackColor = true;
@@ -174,12 +174,12 @@
             // 
             // lblComChoisie
             // 
-            this.lblComChoisie.AutoSize = true;
             this.lblComChoisie.BackColor = System.Drawing.Color.Yellow;
-            this.lblComChoisie.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComChoisie.Location = new System.Drawing.Point(172, 368);
+            this.lblComChoisie.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblComChoisie.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblComChoisie.Location = new System.Drawing.Point(116, 363);
             this.lblComChoisie.Name = "lblComChoisie";
-            this.lblComChoisie.Size = new System.Drawing.Size(86, 31);
+            this.lblComChoisie.Size = new System.Drawing.Size(310, 64);
             this.lblComChoisie.TabIndex = 13;
             this.lblComChoisie.Text = "label1";
             this.lblComChoisie.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
