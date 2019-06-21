@@ -58,6 +58,7 @@
             this.btnEffacer.TabIndex = 1;
             this.btnEffacer.Text = "Effacer";
             this.btnEffacer.UseVisualStyleBackColor = true;
+            this.btnEffacer.Click += new System.EventHandler(this.btnEffacer_Click);
             // 
             // btnSupprimer
             // 
@@ -67,6 +68,7 @@
             this.btnSupprimer.TabIndex = 2;
             this.btnSupprimer.Text = "Supprimer";
             this.btnSupprimer.UseVisualStyleBackColor = true;
+            this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
             // 
             // btnQuitter
             // 
@@ -76,6 +78,7 @@
             this.btnQuitter.TabIndex = 3;
             this.btnQuitter.Text = "Quitter";
             this.btnQuitter.UseVisualStyleBackColor = true;
+            this.btnQuitter.Click += new System.EventHandler(this.btnQuitter_Click);
             // 
             // cmbGymnases
             // 
@@ -127,7 +130,6 @@
             this.lblCount.Name = "lblCount";
             this.lblCount.Size = new System.Drawing.Size(92, 20);
             this.lblCount.TabIndex = 9;
-            this.lblCount.Text = "label2";
             this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
