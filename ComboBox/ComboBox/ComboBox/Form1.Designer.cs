@@ -42,9 +42,10 @@
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Location = new System.Drawing.Point(186, 59);
+            this.btnAjouter.Location = new System.Drawing.Point(248, 73);
+            this.btnAjouter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(75, 23);
+            this.btnAjouter.Size = new System.Drawing.Size(100, 28);
             this.btnAjouter.TabIndex = 0;
             this.btnAjouter.Text = "Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@
             // 
             // btnEffacer
             // 
-            this.btnEffacer.Location = new System.Drawing.Point(186, 105);
+            this.btnEffacer.Location = new System.Drawing.Point(248, 129);
+            this.btnEffacer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEffacer.Name = "btnEffacer";
-            this.btnEffacer.Size = new System.Drawing.Size(75, 23);
+            this.btnEffacer.Size = new System.Drawing.Size(100, 28);
             this.btnEffacer.TabIndex = 1;
             this.btnEffacer.Text = "Effacer";
             this.btnEffacer.UseVisualStyleBackColor = true;
@@ -62,9 +64,10 @@
             // 
             // btnSupprimer
             // 
-            this.btnSupprimer.Location = new System.Drawing.Point(186, 158);
+            this.btnSupprimer.Location = new System.Drawing.Point(248, 194);
+            this.btnSupprimer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSupprimer.Name = "btnSupprimer";
-            this.btnSupprimer.Size = new System.Drawing.Size(75, 23);
+            this.btnSupprimer.Size = new System.Drawing.Size(100, 28);
             this.btnSupprimer.TabIndex = 2;
             this.btnSupprimer.Text = "Supprimer";
             this.btnSupprimer.UseVisualStyleBackColor = true;
@@ -72,9 +75,10 @@
             // 
             // btnQuitter
             // 
-            this.btnQuitter.Location = new System.Drawing.Point(186, 209);
+            this.btnQuitter.Location = new System.Drawing.Point(248, 257);
+            this.btnQuitter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnQuitter.Name = "btnQuitter";
-            this.btnQuitter.Size = new System.Drawing.Size(75, 23);
+            this.btnQuitter.Size = new System.Drawing.Size(100, 28);
             this.btnQuitter.TabIndex = 3;
             this.btnQuitter.Text = "Quitter";
             this.btnQuitter.UseVisualStyleBackColor = true;
@@ -83,60 +87,69 @@
             // cmbGymnases
             // 
             this.cmbGymnases.FormattingEnabled = true;
-            this.cmbGymnases.Location = new System.Drawing.Point(32, 271);
+            this.cmbGymnases.Location = new System.Drawing.Point(43, 334);
+            this.cmbGymnases.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbGymnases.Name = "cmbGymnases";
-            this.cmbGymnases.Size = new System.Drawing.Size(121, 21);
+            this.cmbGymnases.Size = new System.Drawing.Size(160, 24);
             this.cmbGymnases.TabIndex = 4;
             this.cmbGymnases.SelectedIndexChanged += new System.EventHandler(this.cmbGymnases_SelectedIndexChanged);
             // 
             // lstEcoles
             // 
             this.lstEcoles.FormattingEnabled = true;
-            this.lstEcoles.Location = new System.Drawing.Point(32, 82);
+            this.lstEcoles.ItemHeight = 16;
+            this.lstEcoles.Location = new System.Drawing.Point(43, 101);
+            this.lstEcoles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lstEcoles.Name = "lstEcoles";
-            this.lstEcoles.Size = new System.Drawing.Size(120, 160);
+            this.lstEcoles.Size = new System.Drawing.Size(159, 196);
             this.lstEcoles.TabIndex = 5;
             this.lstEcoles.SelectedIndexChanged += new System.EventHandler(this.lstEcoles_SelectedIndexChanged);
             // 
             // lstAjouter
             // 
             this.lstAjouter.FormattingEnabled = true;
-            this.lstAjouter.Location = new System.Drawing.Point(304, 49);
+            this.lstAjouter.ItemHeight = 16;
+            this.lstAjouter.Location = new System.Drawing.Point(405, 60);
+            this.lstAjouter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lstAjouter.Name = "lstAjouter";
-            this.lstAjouter.Size = new System.Drawing.Size(120, 160);
+            this.lstAjouter.Size = new System.Drawing.Size(159, 196);
             this.lstAjouter.TabIndex = 6;
             // 
             // cmbEntreprises
             // 
             this.cmbEntreprises.FormattingEnabled = true;
-            this.cmbEntreprises.Location = new System.Drawing.Point(32, 34);
+            this.cmbEntreprises.Location = new System.Drawing.Point(43, 42);
+            this.cmbEntreprises.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbEntreprises.Name = "cmbEntreprises";
-            this.cmbEntreprises.Size = new System.Drawing.Size(121, 21);
+            this.cmbEntreprises.Size = new System.Drawing.Size(160, 24);
             this.cmbEntreprises.TabIndex = 1;
             this.cmbEntreprises.SelectedIndexChanged += new System.EventHandler(this.cmbEntreprises_SelectedIndexChanged);
             // 
             // lblEcolesSelec
             // 
             this.lblEcolesSelec.AutoSize = true;
-            this.lblEcolesSelec.Location = new System.Drawing.Point(348, 241);
+            this.lblEcolesSelec.Location = new System.Drawing.Point(464, 297);
+            this.lblEcolesSelec.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEcolesSelec.Name = "lblEcolesSelec";
-            this.lblEcolesSelec.Size = new System.Drawing.Size(106, 13);
+            this.lblEcolesSelec.Size = new System.Drawing.Size(140, 17);
             this.lblEcolesSelec.TabIndex = 8;
             this.lblEcolesSelec.Text = "écoles sélectionnées";
             // 
             // lblCount
             // 
-            this.lblCount.Location = new System.Drawing.Point(348, 272);
+            this.lblCount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblCount.Location = new System.Drawing.Point(464, 335);
+            this.lblCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCount.Name = "lblCount";
-            this.lblCount.Size = new System.Drawing.Size(92, 20);
+            this.lblCount.Size = new System.Drawing.Size(123, 25);
             this.lblCount.TabIndex = 9;
             this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.lblCount);
             this.Controls.Add(this.lblEcolesSelec);
             this.Controls.Add(this.cmbEntreprises);
@@ -147,6 +160,7 @@
             this.Controls.Add(this.btnSupprimer);
             this.Controls.Add(this.btnEffacer);
             this.Controls.Add(this.btnAjouter);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "ListBox et ComboBox";
             this.Load += new System.EventHandler(this.Form1_Load);
